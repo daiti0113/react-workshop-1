@@ -1,10 +1,11 @@
 import "./styles.css";
+import {Profile} from "./Profile"
 
 export default function App() {
   return (
     <div className="App">
       <h1>This is React Workshop!</h1>
-      <h2>コミットできることを確認</h2>
+      <Profile />
     </div>
   );
 }
